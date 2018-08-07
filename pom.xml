@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zy.cloud</groupId>
+    <artifactId>zyCommon</artifactId>
+		<version>1.0.7-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    
+    <modules>
+		<module>common-util</module>
+    <module>common-redis</module>
+    <module>common-cache</module>
+		<module>common-http</module>
+		<module>common-datasource</module>
+    <module>common-pagination</module>
+    <module>common-crypto</module>
+    <module>common-downgradable</module>
+    <module>common-config</module>
+    <module>common-noticeproxy</module>
+	<module>common-lock</module>
+        <module>common-quartz</module>
+        <module>common-hbase</module>
+        <module>common-producer</module>
+    <module>common-imps</module>
+  </modules>
+    
+	
+    <distributionManagement>
+			<repository>
+				<id>cloud-releases</id>
+				<url>http://maven.zy.com.cn/nexus/content/repositories/releases/</url>
+			</repository>
+			<snapshotRepository>
+				<id>cloud-snapshots</id>
+				<url>http://maven.zy.com.cn/nexus/content/repositories/snapshots/</url>
+			</snapshotRepository>
+		</distributionManagement>
+	
+</project>
