@@ -1,9 +1,13 @@
 # common
-- common工具类
-- 加密工具
-- 字符串工具
-- redis工具
-- hbase工具
-- 配置工具
-- 数据库读写工具
-
+- common工具类 -->>common-util
+- 加密工具 -->> common-crypto
+- 分布式锁工具 -->> common-lock
+- redis工具 -->> common-redis
+- hbase工具 -->> common-hbase
+- 配置工具 -->>common-config
+- 数据库读写分离工具 -->> common-datasource
+- 分布式作业调度工具 -->> common-quartz
+- 生产者工具可配置loghub和kafka -->> common-producer
+- http请求工具 -->> common-http
+- 降级工具 -->> common-downgradable
+- 缓存工具 -->> common-cache
